@@ -1,0 +1,22 @@
+.navigation_link_root {
+  position: absolute;
+  top: 5vw;
+  right: 10vw;
+}
+
+.navigation_links {
+  color: white;
+  display: inline-block;
+  font-weight: 300;
+  font-size: 140%;
+  margin: 0 10px;
+  padding: 5px;
+  border-bottom: 1px transparent;
+  transition: border-bottom 0.2s;
+}
+
+.navigation_links:hover,
+navigation_links:active {
+  display: inline-block;
+  border-bottom: 1px solid white;
+}
