@@ -1,9 +1,11 @@
 import "./styles.css";
 import LandingPage from "./components/Landing/LandingPage";
-export default function App() {
+export default function Home() {  
   return (
     <div className="App">
-      <LandingPage />
-    </div>
-  );
+        <div className="section" >
+              <LandingPage />
+            </div>  
+            
+    </div>);
 }

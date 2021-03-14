@@ -3,22 +3,15 @@ import { Row, Col } from "react-bootstrap";
 import Card from "./Card";
 import Social from "./Social";
 import { useTransition, animated } from "react-spring";
-import { useHistory } from "react-router-dom";
-import ReactScrollWheelHandler from "react-scroll-wheel-handler";
 export default function LandingPage() {
-  let history = useHistory();
-  function handleRouteChange() {
-    history.push("/aboutme");
-  }
-  return (
-    <ReactScrollWheelHandler upHandler={handleRouteChange}>
+  
+  return (    
       <div className="landing-page-title">
         <Row>
           <Title />
           <Avatar />
         </Row>
       </div>
-    </ReactScrollWheelHandler>
   );
 }
 function Title() {

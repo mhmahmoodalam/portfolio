@@ -1,0 +1,62 @@
+.about-me {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10vw;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+  }
+
+  .sections {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 11rem;
+}
+
+.header-slogan {
+    font-family: "input-mono", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 3.33333rem;
+}
+
+.content-block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    word-wrap: break-word;
+    position: relative;
+    width: 100%;
+}
+.avatar-div{
+    font-size: 0;
+    line-height: 0;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ .avatar-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+.description-text{
+    font-family: "bio-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.work-exp{
+    width:100%;
+    background-color: #4e3d53;
+    padding-left: -15px;
+    padding-right: -15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

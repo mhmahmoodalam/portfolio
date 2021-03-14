@@ -13,10 +13,23 @@
   padding: 5px;
   border-bottom: 1px transparent;
   transition: border-bottom 0.2s;
+  
 }
+.navigation_link_root a:hover, 
+.navigation_link_root a:focus, 
+.navigation_link_root a:visited, 
+.navigation_link_root a:link, 
+.navigation_link_root a:active {    
+  text-decoration: none;
+  }
 
 .navigation_links:hover,
-navigation_links:active {
-  display: inline-block;
-  border-bottom: 1px solid white;
+navigation_links:active {  
+  display: inline-block; 
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.activeLink {
+  border-bottom: 2px solid white;
 }
