@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+
+/*overidinh fullpage css*/
+#fp-nav ul li:hover .fp-tooltip {
+  color: var(--primary);
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background: var(--primary);
+}

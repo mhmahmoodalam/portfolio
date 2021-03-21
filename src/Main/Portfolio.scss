@@ -1,0 +1,82 @@
+.portfolio-items{
+    height: 40vh;
+}
+.portfolio-reel-item{    
+    transform: rotateZ(45deg);
+    position: relative;
+    top: -70%;
+    left: -60%;
+}
+.reel-display{
+    height: 100%;
+    width: 100%;    
+    overflow: hidden;
+}
+
+.reel-info{
+    height: 100%;
+    width: 100%; 
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+.reel-Image-strip-up{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    -webkit-animation:  reelingup 10000ms ease-in-out infinite;
+    animation:  reelingup 10000ms ease-in-out infinite;
+}
+
+
+.reel-Image-strip-down{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    -webkit-animation:  reelingdown 10000ms ease-in-out infinite;
+    animation:  reelingdown 10000ms ease-in-out infinite;
+} 
+
+.reel-image-box{
+    width:100%;
+    
+}
+
+
+
+@-webkit-keyframes reelingup {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-1200px);
+    }
+  }
+  @keyframes reelingup {
+    0% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(-1200px);
+    }
+  }
+
+  
+@-webkit-keyframes reelingdown {
+    0% {
+      transform: translateY(-1200px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  @keyframes reelingdown {
+    0% {
+      transform: translateY(-1200px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
