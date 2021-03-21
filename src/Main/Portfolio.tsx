@@ -1,5 +1,4 @@
 import { Image } from "react-bootstrap"
-import { useSpring, animated, interpolate  } from 'react-spring'
 import "./Portfolio.scss"
 import MobileAppTwoImageStart from "../assets/images/mobile_app2_start.jpg"
 import MobileAppTwoImageMiddle from "../assets/images/mobile_app2_middle.jpg"
