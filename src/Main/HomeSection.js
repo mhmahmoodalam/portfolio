@@ -6,11 +6,11 @@ import Typewriter from 'typewriter-effect';
 import Fade from 'react-reveal/Fade';
 import ShootingBackground from "./ShootingBackground"
 import { useSpring, animated, interpolate  } from 'react-spring'
-const calc = (x: number, y: number) => [x - window.innerWidth / 2, y - window.innerHeight / 2]
-const trans1 = (x: number, y: number) => `translate3d(${x / 25}px,${y / 25}px,0)`
+const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2]
+const trans1 = (x, y) => `translate3d(${x / 25}px,${y / 25}px,0)`
 
 function HomeSection() {
-  const [props, set] = useSpring<{ xy: number[] }>(() => ({ xy: [0, 0], config: { mass: 10, tension: 550, friction: 140 } }))
+  const [props, set] = useSpring(() => ({ xy: [0, 0], config: { mass: 10, tension: 550, friction: 140 } }))
   
   return (
     <div className="container-fluid" onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}>      

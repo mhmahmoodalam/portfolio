@@ -124,6 +124,18 @@ const SkillsData= [
         css: 'linear-gradient(135deg, #fff1eb 0%, #ace0f9 100%)',
         height: 400
         }
-    ]}
+    ]},
+  ]
+
+  const certificates = [
+    {
+        name : "Data Structure And Algorithm",
+        issuer : "Upgrad",
+        url : "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/43031368"
+    },{
+        name : " Executive PG programme",
+        issuer: "IIT Bangalore",
+        url : "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/61879247"
+    }
   ]
   export default SkillsData;
